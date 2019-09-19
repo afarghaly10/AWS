@@ -1,0 +1,23 @@
+{
+  "name": "sls-notes-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "afarghaly",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.326.0",
+    "jwt-decode": "^2.2.0",
+    "moment": "^2.22.2",
+    "serverless-offline": "^3.25.17",
+    "underscore": "^1.9.1",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "serverless-domain-manager": "^2.6.5"
+  }
+}
